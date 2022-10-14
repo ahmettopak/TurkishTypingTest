@@ -29,14 +29,14 @@ $("#select-language").on("change", () => {
       startTest();
       break;
     // ilk 1000 Kelime eklenecek
-    // case "tr_1000":
-    //   typingTest = new TypingTest(Word.WORDS_TR_1000);
-    //   startTest();
-    //   break;
-    // case "en_1000":
-    //   typingTest = new TypingTest(Word.WORDS_EN_1000);
-    //   startTest();
-    //   break;
+    case "tr_1000":
+      typingTest = new TypingTest(Word.WORDS_TR_1000);
+      startTest();
+      break;
+    case "en_1000":
+      typingTest = new TypingTest(Word.WORDS_EN_1000);
+      startTest();
+      break;
   }
 });
 
