@@ -182,11 +182,12 @@ function refreshHistory() {
           <i class="bi bi-x fw-bold"></i>${result.incorrectWords}
           </span>
           </td>
+          <td>${moment(result.unix).fromNow()}</td> süre
         
       </tr>
       
         `);
-    // <td>${moment(result.unix).fromNow()}</td> süre
+    // 
     //   <td>${result.percentile}%</td> yüzde
   });
 }
